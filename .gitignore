@@ -20,13 +20,19 @@ log/
 # Temporary files
 *.save
 *.log
+*.txt
+*.txt:Zone.Identifier
 
 # Dataset (large, not versioned)
 pallet_detection/train/
 pallet_detection/valid/
 pallet_detection/test/
+pallet_detection/README.dataset.txt
+pallet_detection/README.roboflow.txt
 runs/
 
 # Miscellaneous
 .vscode/
 *.npy
+ground_segmentation/
+New Text Document.txt
