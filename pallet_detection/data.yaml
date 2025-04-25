@@ -1,0 +1,13 @@
+train: /home/dhamodarlinux/ros2_ws/data/pallets/pallet_detection/train/images
+val: /home/dhamodarlinux/ros2_ws/data/pallets/pallet_detection/valid/images
+test: /home/dhamodarlinux/ros2_ws/data/pallets/pallet_detection/test/images
+
+nc: 1
+names: ['pallet']
+
+roboflow:
+  workspace: jarvis1
+  project: pallet_detection-iuqca
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jarvis1/pallet_detection-iuqca/dataset/1

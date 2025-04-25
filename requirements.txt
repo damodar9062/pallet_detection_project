@@ -1,0 +1,12 @@
+
+rclpy
+sensor_msgs
+cv_bridge
+numpy==1.26.4
+cython
+ultralytics
+torch==2.0.1
+torchvision==0.15.2
+opencv-python
+albumentations
+onnxruntime
