@@ -1,12 +1,14 @@
-
 rclpy
 sensor_msgs
 cv_bridge
-numpy==1.26.4
 cython
-ultralytics
+opencv-python
 torch==2.0.1
 torchvision==0.15.2
-opencv-python
-albumentations
-onnxruntime
+ultralytics==8.3.116
+onnxruntime==1.19.2
+opencv-python==4.10.0.84
+numpy==1.26.4
+albumentations==1.4.18
+pyyaml==6.0.2
+tensorrt==10.5.0; platform_machine == "aarch64"
