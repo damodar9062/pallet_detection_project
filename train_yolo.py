@@ -15,7 +15,7 @@ model.train(
     augment=True,
     workers=2,
     project='/home/dhamodarlinux/ros2_ws/data/pallets/runs/detect',
-    name='train_s',
+    name='train',
     exist_ok=True,
 
 )
